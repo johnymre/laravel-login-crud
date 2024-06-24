@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Overlay Custom */
+.customOverlay {
+    background: rgba(36, 123, 160, 0.7);
+  }
+  .customModal {
+    text-align: center !important;
+    background: rgba(71, 85, 105) !important;
+    width: 30% !important;
+    max-width: 30% !important;
+    border-radius: 10px;
+    padding-top: 55px !important;
+    padding-bottom: 20px !important;
+    
+  }
+
+  .messageOverlay{
+    display: none !important;
+  }
+
+  .messageModal{
+    text-align: center !important;
+    background: rgba(71, 85, 105) !important;
+    border-radius: 10px;
+    position: absolute !important;
+    bottom: 0 !important;
+    right:0 !important;
+    padding: 20px !important;
+  }
+
+  .modalIcon {
+    margin:0 auto;
+  }
+
+  /* DataTable Filter */
+
+  .data-table-extensions-filter {
+    float:right;
+    margin-top: 20px;
+    margin-bottom:10px;
+    font-size: 12px;
+  }
+
+  .filter-text {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000;
+  }
